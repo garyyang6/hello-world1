@@ -1,0 +1,10 @@
+
+git clone https://github.com/garyyang6/hello-world1
+
+cd hello-world1
+git checkout -b my-branch  (Create a branch at local)
+
+git add .
+git commit -m "kkj"
+
+git push --set-upstream origin my-branch   (Use --set-upstream origin push branch to github. my-branch created at local workspace)
